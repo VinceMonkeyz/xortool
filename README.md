@@ -6,6 +6,26 @@ A tool to do some xor analysis:
   - guess the key length (based on count of equal chars)
   - guess the key (base on knowledge of most frequent char)
 
+
+Install
+---------------------
+
+```
+Prerequisites
+You'll need to install setuptools and docopt using pip :
+
+$ sudo pip install setuptools
+$ sudo pip install docopt
+
+Then clone xortool's source code and install it :
+
+$ mkdir xortool && cd xortool
+$ git clone https://github.com/hellman/xortool.git
+$ cd xortool/
+$ sudo python setup.py install
+```
+
+
 Usage
 ---------------------
 
